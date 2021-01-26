@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.about {
+  border: 1px solid red;
+  background: #282c34;
+  /* height: 70vh; */
+}
+  
+.section_name {
+  font-size: 1.8rem;
+  color: white;
+  position: absolute;
+  left: 4.4%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%);
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5px;
+}
+.section_name::before {
+  padding-right: 10px;
+  content: '✪';
+}
+.information {
+  position: relative;
+  background: #21252b;
+  position: absolute;
+  left: 2%;
+  height: 80%;
+  width: 40%;
+  top: calc((100vh - 80%) / 2);
+}

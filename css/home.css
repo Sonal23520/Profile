@@ -14,12 +14,13 @@ section {
   background: black;
 }
 .home-image {
-  background-image: url(/img/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg);
+  background: url(../img/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(0px);
   height: 100vh;
-  filter: blur(80px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 .profile-pic {
   position: absolute;
@@ -30,7 +31,7 @@ section {
   border-radius: 100%;
   left: 6%;
   /* //////////////// */
-  background: url(/img/propic.jpeg);
+  background: url(../img/propic.jpeg);
   background-size: 110%;
   background-repeat: no-repeat;
 }
@@ -96,6 +97,7 @@ section {
 }
 .name {
   font-family: 'Sansita', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   position: absolute;
   margin: 0;
   color: white;
@@ -169,7 +171,7 @@ section {
 }
 
 .github {
-  background: url(/img/icons8-github-48.png);
+  background: url(../img/icons8-github-48.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,20 +180,20 @@ section {
 
 .linkedin {
   padding: 20px;
-  background: url(/img/icons8-linkedin-48.png);
+  background: url(../img/icons8-linkedin-48.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .facebook {
-  background: url(/img/icons8-facebook-48.png);
+  background: url(../img/icons8-facebook-48.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 20px;
 }
 .instagram {
-  background: url(/img/icons8-instagram-48.png);
+  background: url(../img/icons8-instagram-48.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
