@@ -139,19 +139,19 @@
   text-align: center;
 }
 .interested_icon:nth-child(1) {
-  background: url(/img/Interesting/icons8-placeholder-thumbnail-xml-96.png);
+  background: url(../img/Interesting/icons8-placeholder-thumbnail-xml-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .interested_icon:nth-child(2) {
-  background: url(/img/Interesting/icons8-musical-notes-96.png);
+  background: url(../img/Interesting/icons8-musical-notes-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .interested_icon:nth-child(3) {
-  background: url(/img/Interesting/icons8-google-images-96.png);
+  background: url(../img/Interesting/icons8-google-images-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@
   -o-transform: translate(-26%, 0%);
 }
 .interested_icon:nth-child(4) {
-  background: url(/img/Interesting/icons8-airport-96.png);
+  background: url(../img/Interesting/icons8-airport-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -220,25 +220,25 @@
   width: 40px;
 }
 .other_information > div:nth-child(1) > div {
-  background: url(/img/Other_Information/icons8-calendar-96.png);
+  background: url(../img/Other_Information/icons8-calendar-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .other_information > div:nth-child(2) > div {
-  background: url(/img/Other_Information/icons8-phone-96.png);
+  background: url(../img/Other_Information/icons8-phone-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .other_information > div:nth-child(3) > div {
-  background: url(/img/Other_Information/icons8-envelope-96.png);
+  background: url(../img/Other_Information/icons8-envelope-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .other_information > div:nth-child(4) > div {
-  background: url(/img/Other_Information/icons8-home-address-96.png);
+  background: url(../img/Other_Information/icons8-home-address-96.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
