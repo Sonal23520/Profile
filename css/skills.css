@@ -120,7 +120,7 @@
   -o-border-radius: 8px;
 }
 .java > div:nth-child(1) {
-  background: url(/img/skills/Java-icon.png);
+  background: url(../img/skills/Java-icon.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@
   width: 60%;
 }
 .html > div:nth-child(1) {
-  background: url(/img/skills/iconfinder_badge-html-5_317755.png);
+  background: url(../img/skills/iconfinder_badge-html-5_317755.png);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@
   background: #f16529;
 }
 .css > div:nth-child(1) {
-  background: url(/img/skills/iconfinder_badge-css-3_317756.png);
+  background: url(../img/skills/iconfinder_badge-css-3_317756.png);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@
   background: #4c81be;
 }
 .javascript > div:nth-child(1) {
-  background: url(/img/skills/javascript.png);
+  background: url(../img/skills/javascript.png);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@
   background: #d6ba32;
 }
 .python > div:nth-child(1) {
-  background: url(/img/skills/iconfinder_267_Python_logo_4375050.svg);
+  background: url(../img/skills/iconfinder_267_Python_logo_4375050.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -170,7 +170,7 @@
   background: #347ab4;
 }
 .sql > div:nth-child(1) {
-  background: url(/img/skills/iconfinder_icon-89-document-file-sql_315887.png);
+  background: url(../img/skills/iconfinder_icon-89-document-file-sql_315887.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

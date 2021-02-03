@@ -93,19 +93,19 @@
   border-radius: 10px;
 }
 .enterprise > div {
-  background: url(/img/services/flexsin.jpg);
+  background: url(../img/services/flexsin.jpg);
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
 }
 .webapp > div {
-  background: url(/img/services/Get-the-Most-Fancied-Web-Development-Services-min-scaled-1.jpg);
+  background: url(../img/services/Get-the-Most-Fancied-Web-Development-Services-min-scaled-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .mobile > div {
-  background: url(/img/services/unnamed.jpg);
+  background: url(../img/services/unnamed.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
