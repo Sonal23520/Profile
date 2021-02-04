@@ -16,23 +16,27 @@ header {
   position: fixed;
   background: rgb(22, 24, 31, 0.4);
   height: 50px;
-  top: 0;
+  /* top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   z-index: 1;
   display: flex;
   backdrop-filter: blur(22px);
+  width: 100%;
+  /* border: 1px solid red; */
 }
 
 header:nth-child(1) > :nth-child(1) {
   height: 100%;
   flex: 1;
+  /* border: 1px solid rgb(68, 0, 255); */
 }
 header:nth-child(1) > :nth-child(2) {
   height: 100%;
   display: flex;
   flex: 1;
   align-items: center;
+  /* border: 1px solid rgb(0, 81, 255); */
 }
 
 .nav_links {
@@ -68,6 +72,7 @@ header:nth-child(1) > :nth-child(2) {
   background: #c42d23;
   padding: 16px 22px 16px 22px;
 }
+
 .nav_links > li {
   display: flex;
   align-items: center;

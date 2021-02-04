@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+} */
 .contact {
   /* border: 1px solid red; */
   /* height: 90vh; */
@@ -119,7 +125,7 @@ input[type='number'] {
   width: 80px;
   height: 40px;
   left: 0;
-  margin-left: 700px;
+  margin-left: 696px;
   background: transparent;
   border: 2px solid rgb(41, 41, 41);
   font-family: 'Oswald', sans-serif;
@@ -143,7 +149,7 @@ input[type='number'] {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  margin-right: 40px;
+  margin-right: 38px;
   resize: none;
 }
 .contact-all > form > input:hover {

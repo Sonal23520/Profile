@@ -34,6 +34,7 @@
   justify-content: space-between;
   height: 86%;
   width: 96%;
+  /* border: 1px solid red; */
 }
 
 .information {
@@ -45,7 +46,7 @@
   font-size: 12px;
   /* position: absolute; */
   width: 58%;
-  height: 90%;
+  height: 100%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
