@@ -1,11 +1,9 @@
 .about {
-  /* border: 1px solid red; */
-  /* background: linear-gradient(
-    to right,
-    hsl(243, 100%, 72%),
-    hsl(187, 100%, 77%)
-  ); */
-  height: 80vh;
+  /*border: 1px solid red;
+  */ /*background: linear-gradient(    to right,    hsl(243, 100%, 72%),    hsl(187, 100%, 77%)  );
+  */
+  /* height: 80vh; */
+  padding: 40px 10px 40px 10px;
   overflow: hidden;
 }
 .about::after {
@@ -24,18 +22,18 @@
   -ms-transform: rotate(120deg);
   -o-transform: rotate(120deg);
 }
-.section_name {
-  color: #333;
-  font-size: 2.2em;
-  position: absolute;
-  left: 50%;
+.about-text {
+  font-size: 2.4rem;
   font-family: 'Sansita', sans-serif;
-  margin-top: 5px;
-  transform: translate(-50%, 0%);
-  -webkit-transform: translate(-50%, 0%);
-  -moz-transform: translate(-50%, 0%);
-  -ms-transform: translate(-50%, 0%);
-  -o-transform: translate(-50%, 0%);
+  margin: 12px;
+  color: rgb(58, 58, 58);
+}
+.all-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 86%;
+  width: 96%;
 }
 
 .information {
@@ -45,7 +43,7 @@
   backdrop-filter: blur(8px);
   padding: 10px;
   font-size: 12px;
-  position: absolute;
+  /* position: absolute; */
   width: 58%;
   height: 90%;
   border-radius: 10px;
@@ -53,13 +51,7 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  left: 2%;
-  top: 50%;
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
+
   box-shadow: 2px 2px 10px 0px rgb(88, 88, 88, 0.6);
 }
 .info_property {
@@ -181,17 +173,10 @@
 .other_information {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   width: 400px;
   height: 60%;
-  right: 2%;
-  top: 50%;
   /* border: 1px solid rgb(255, 0, 0); */
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
   align-items: flex-start;
   justify-content: space-around;
 }

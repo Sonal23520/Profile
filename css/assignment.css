@@ -1,6 +1,6 @@
 .assignment {
   /* border: 1px solid red; */
-  height: 80vh;
+  /* height: 80vh; */
   overflow: hidden;
 }
 .assignment::before {
@@ -23,28 +23,28 @@
 .assignment-text {
   font-size: 2.4rem;
   font-family: 'Sansita', sans-serif;
-  position: absolute;
+  /* position: absolute; */
   margin: 4px;
-  left: 50%;
+  /* left: 50%;
   transform: translate(-50%, 0%);
   -webkit-transform: translate(-50%, 0%);
   -moz-transform: translate(-50%, 0%);
   -ms-transform: translate(-50%, 0%);
-  -o-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%); */
   color: rgb(58, 58, 58);
 }
 .assignment-all {
-  position: absolute;
+  /* position: absolute; */
   width: 96%;
-  height: 80%;
+  height: 84%;
   /* border: 1px solid red; */
-  top: 50%;
+  /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); */
   display: flex;
   /* backdrop-filter: blur(4px); */
   justify-content: space-around;
@@ -89,7 +89,7 @@
 }
 
 .ass {
-  height: 80%;
+  height: 76%;
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@
 .ass > div {
   background: url(../img/depositphotos_137922610-stock-photo-business-team-working.jpg);
   background-size: cover;
-  background-position: -70px;
+  background-position: -80px;
   background-repeat: no-repeat;
 }
 .ass > h2 {
