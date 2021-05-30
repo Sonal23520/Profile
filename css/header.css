@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -46,7 +46,6 @@ header:nth-child(1) > :nth-child(2) {
   width: 100%;
   height: 100%;
   list-style: none;
-  /* border: 1px solid red; */
 }
 .nav_links > li > a {
   text-decoration: none;
@@ -57,7 +56,6 @@ header:nth-child(1) > :nth-child(2) {
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
-  /* border: 1px solid red; */
 }
 
 .header-div {
@@ -81,18 +79,10 @@ header:nth-child(1) > :nth-child(2) {
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
-  /* line-height: 40px; */
-  /* border: 1px solid red; */
-  /* background: #c42d23; */
 }
 
 .nav_links > li:hover {
   box-shadow: 0px 4px 0px -1px rgb(255, 255, 255);
-  /* transform: scale(1.1);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -webkit-transform: scale(1.1); */
-  /* border: 1px solid red; */
 }
+
+/* ////////////////////// */
